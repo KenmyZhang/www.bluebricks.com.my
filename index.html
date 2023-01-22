@@ -1271,16 +1271,6 @@
  user-select: none;
 } </style>
 <script type="text/javascript"> /*<![CDATA[*/
-document.oncontextmenu = function(event) {
- if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
-  event.preventDefault();
- }
-};
-document.ondragstart = function() {
- if (event.target.tagName != 'INPUT' && event.target.tagName != 'TEXTAREA') {
-  event.preventDefault();
- }
-};
 /*]]>*/ </script>
 <!-- Meta Pixel Event Code -->
 <!-- End Meta Pixel Event Code -->
